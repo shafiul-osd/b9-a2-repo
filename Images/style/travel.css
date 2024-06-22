@@ -188,6 +188,21 @@ main{
     grid-template-columns: repeat(2,1fr);
     gap: 10px;
 }
+.destionion-heading{
+    color: rgb(19, 19, 24);
+    font-size: 2rem;
+    letter-spacing: 0%;
+}
+.destination-title{
+    color: rgba(19, 19, 24, 0.7);
+    font-size: 0.8rem;
+    padding: 10px;
+}
+
+
+
+
+
 .img-cards1{
     position: relative;
     color: #fff;
@@ -239,7 +254,44 @@ main{
     gap: 10px;
     margin-top: 20px;
 }
+.img-card4{
+    position: relative;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: bold;
+    
+}
+.card-title4{
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.img-card5{
+    position: relative;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+   
 
+}
+.card-title5{
+   position: absolute;
+   inset: 0;
+   margin: auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.destination-section3{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+}
 
 
 
@@ -284,6 +336,16 @@ main{
         width: 100%;
     }
     .img-cards3 img{
+        width: 100%;
+    }
+    .destination-section3{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .img-card4 img{
+        width: 100%;
+    }
+    .img-card5 img{
         width: 100%;
     }
 }
