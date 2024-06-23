@@ -442,6 +442,71 @@ main{
     left: 50px;
     top: 100px;
 }
+.btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.packages-btn{
+    background: rgb(255, 84, 0);
+    padding: 10px;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+}
+/* perfect-place-section start from here */
+.perfect-place-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-top: 70px;
+}
+.perfect-place-img{
+    position: relative;
+    color: #fff;
+    font-size: 1rem;
+}
+.perfect-place-img img{
+    width: 100%;
+    height: 300px;
+}
+.img-flex{
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.perfect-place-text{
+    
+    margin-top: 20px;
+}
+.perfect-place-heading{
+    color: rgb(19, 19, 24);
+    font-size: 1.5rem;
+}
+.perfect-place-p{
+    color: rgb(90, 90, 93);
+    font-size: 0.8rem;
+    margin-top: 10px;
+    line-height: 20px;
+}
+.perfect-place-li{
+    color: rgb(19, 19, 24);
+    font-size:0.9rem ;
+    line-height: 20px;
+    margin-top: 10px;
+}
+.perfect-place-btn{
+    background: rgb(255, 84, 0);
+    color: #fff;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
 
 
 
@@ -519,5 +584,9 @@ main{
         height: 50%;
         margin-top: 160px;
         margin-left: -20px;
+    }
+    .perfect-place-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
     }
 }
