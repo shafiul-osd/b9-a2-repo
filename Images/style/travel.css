@@ -658,4 +658,12 @@ main{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
+    .newsletter-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+    .newsletter-input{
+        width: 100%;
+    }
 }
