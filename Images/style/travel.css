@@ -35,6 +35,10 @@ nav {
 .nav-li a {
     text-decoration: none;
 }
+/* mobile icon section */
+.mobile-menu-icon{
+    display: none;
+}
 
 .hero-color {
     color: rgb(255, 84, 0);
@@ -576,6 +580,53 @@ main{
 .newsletter-img{
     position: relative;
 }
+footer{
+    background: rgba(19, 19, 24, 0.05);
+}
+.footer-section{
+    width: 85%;
+    margin: auto;
+}
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+    padding: 20px 10px;
+}
+.footer-logo-color{
+    color: rgb(255, 84, 0);
+}
+.footer-p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 100px;
+}
+.footer-p-color{
+    color: rgb(90, 90, 93);
+    font-size: 0.9rem;
+    text-align: center;
+
+}
+.footer-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    margin-top: 20px;
+}
+.footer-copy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+hr{
+ width: 50%;
+ margin: 20px auto;
+ 
+}
 
 
 
@@ -584,9 +635,17 @@ main{
 @media(max-width:576px){
 
     nav{
-        flex-direction: column;
-        justify-content: center;
+        display: flex;
+        justify-content: space-between;
         align-items: center;
+    }
+
+    .nav-li{
+        display: none;
+        
+    }
+    .mobile-menu-icon{
+        display: flex;
     }
 
     .container-img{
@@ -665,5 +724,8 @@ main{
     }
     .newsletter-input{
         width: 100%;
+    }
+    .footer-p{
+        padding: 0px 10px;
     }
 }
