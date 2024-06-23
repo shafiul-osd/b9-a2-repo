@@ -3,6 +3,13 @@
   margin: 0px;
   padding: 0px;
   font-family: "Mulish", sans-serif;
+
+}
+input{
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 /* navbar-related style */
@@ -670,7 +677,7 @@ hr {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     width: 100%;
-    margin-top: 220px;
+    margin-top: 240px;
   }
   .discount-img-bg {
     width: 80%;
@@ -681,7 +688,7 @@ hr {
   .discount-img-bg2 {
     width: 80%;
     height: 50%;
-    margin-top: 160px;
+    margin-top: 180px;
     margin-left: -20px;
   }
   .perfect-place-container {
